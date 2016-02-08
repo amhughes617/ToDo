@@ -34,8 +34,8 @@ public class ToDo {
                 case "2":
                     System.out.print("Enter the number of the item you want to toggle:");
                     int itemNum = Integer.valueOf(scanner.nextLine());
-                    ToDoItem item = items.get(itemNum - 1);
-                    item.isDone = !item.isDone;
+                    ToDoItem itemChoice = items.get(itemNum - 1);
+                    itemChoice.isDone = !itemChoice.isDone;
                     break;
 
                 case "3":
